@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Best Trip</string>
+    <string name="besttrip">BestTrip</string>
+    <string name="best_trip_with_us">Best trip with us</string>
+    <string name="sign_up">Sign up</string>
+    <string name="login">Login</string>
+    <string name="login_with_email">Login with email</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="email_address">Email address</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+</resources>
