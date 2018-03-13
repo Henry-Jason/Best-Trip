@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:background="@drawable/shape_input"
     android:orientation="vertical">
 
     <LinearLayout
@@ -10,7 +11,8 @@
         android:layout_height="0dp"
         android:layout_weight="1"
         android:gravity="center"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:padding="10dp">
 
         <ImageView
             android:layout_width="0dp"
@@ -21,13 +23,15 @@
             tools:ignore="NestedWeights" />
 
         <EditText
-            android:id="@+id/edt_email_dangnhap"
+            android:id="@+id/edt_email_login"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="6"
+            android:background="@android:color/transparent"
             android:hint="@string/email_address"
             android:inputType="text"
-            tools:ignore="TextFields" />
+            tools:ignore="TextFields"
+            android:maxLines="1"/>
 
     </LinearLayout>
 
@@ -41,7 +45,8 @@
         android:layout_height="0dp"
         android:layout_weight="1"
         android:gravity="center"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:padding="10dp">
 
         <ImageView
             android:layout_width="0dp"
@@ -52,12 +57,14 @@
             tools:ignore="NestedWeights" />
 
         <EditText
-            android:id="@+id/edt_password_dangnhap"
+            android:id="@+id/edt_password_login"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="6"
+            android:background="@android:color/transparent"
             android:hint="@string/password"
-            android:inputType="textPassword" />
+            android:inputType="textPassword"
+            android:maxLines="1"/>
 
     </LinearLayout>
 
